@@ -2,3 +2,18 @@
   max-width: 680px;
   margin: auto;
 }
+
+.team {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.team img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .team {
+    grid-template-columns: 100%;
+  }
+}
