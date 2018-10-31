@@ -2,3 +2,20 @@
   max-width: 680px;
   margin: auto;
 }
+
+ul {
+  float: right;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  padding: 0 0.4em;
+  margin: 0 0.4em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
