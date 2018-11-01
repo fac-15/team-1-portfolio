@@ -224,4 +224,31 @@ footer {
   .submit-button {
     width: 90%;
   }
+  #logo {
+    display: none;
+  }
+  #navbar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    right: 0;
+    top: 10;
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 20px;
+  }
+  #navbar a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: #black;
+    transform: rotate(90deg);
+  }
+  a {
+    margin-top: 130px;
+    padding: 0;
+  }
 }
