@@ -207,4 +207,10 @@ footer {
     grid-column: 1;
     grid-row: 8/9;
   }
+  #message,
+  #email,
+  #first-name,
+  .submit-button {
+    width: 90%;
+  }
 }
