@@ -3,6 +3,9 @@ body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +21,8 @@ h3 {
 h1 {
   font-size: 46px;
   margin: 20px auto;
+  /*To avoid overlapping navbar */
+  padding-top: 1em;
 }
 h2 {
   margin: 20px auto;
@@ -27,18 +32,10 @@ p {
   font-size: 22px;
   padding-bottom: 18px;
 }
-
-.section-content {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .container {
   max-width: 900px;
   margin: 0 auto;
 }
-
 #logo {
   float: left;
   display: inline-block;
@@ -71,7 +68,8 @@ a {
 #team-section,
 #contact-section {
   display: block;
-  margin: 3em auto;
+  margin-top: -3em;
+  padding-top: 3em;
 }
 
 #team-section {
@@ -167,6 +165,7 @@ textarea:focus {
 }
 
 footer {
+  padding-top: 2em;
   padding-bottom: 1em;
 }
 
