@@ -44,6 +44,8 @@ p {
   top: 0px;
   z-index: 5;
   box-sizing: border-box;
+  color: black;
+  padding: 0.4em;
 }
 #navbar {
   display: block;
@@ -72,13 +74,23 @@ a {
   padding-top: 3em;
 }
 
+#about-section {
+  margin-top: 8em;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+#contact-section {
+  height: 100vh;
+}
+
 #team-section {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: repeat(auto);
   font-family: "Open Sans";
   font-weight: 300;
-  margin-top: 55%;
 }
 
 .teambio {
