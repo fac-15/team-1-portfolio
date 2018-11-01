@@ -83,7 +83,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 500px) {
-  .#team-section {
+  #team-section {
     grid-template-columns: 100%;
   }
 }
