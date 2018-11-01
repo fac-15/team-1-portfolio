@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,12 +11,15 @@
 </head>
 <body>
 
-  <p id="logo"><a href="#about-section">LOGO</p>
+
+
+  <p id="logo"><a href="#about-section">LOGO</a></p>
   <nav id="navbar">
-    <a href="#about/">About</a>
-    <a href="#team">Team</a>
-    <a href="#contact">Contact</a>
+    <a href="#about-section">About</a>
+    <a href="#team-section">Team</a>
+    <a href="#contact-section">Contact</a>
   </nav>
+  <div class="container">
 
   <main>
     <section id="about-section">
@@ -25,31 +29,48 @@
     </section>
 
       <section id="team-section">
-          <h2>Team members</h2>
-          <div class="teampic">
+          <!-- <h2>Team members</h2> -->
+          <div class="teampic" id="pic-1">
             <img src="images/placeholderIMG.jpg" alt="">
           </div>
           <div class="teambio">
-            <p>bio</p>
+            <h3>Oliver</h3>
+            <p>Team Awesome's Accessibility expert.
+               Expertise creating Semantic HTML structuring Olivia's particular speciality is writing attributes and key handlers that allow for the visually impaired to move through a website in a order and make each element clear and consistent.</p>
           </div>
-          <div class="teampic">
-              <img src="images/placeholderIMG.jpg" alt="">
+
+          <div class="teambio">
+            <h3>Zurda</h3>
+            <p>Team Awesome's very own CSS presentation expert.
+               Zurda is a master at responsive design. Focusing mainly on the styling of the webpage, advanced naming conventions using BEM and making sure all content is the same on whatever device is being used. this allows for a smooth transition on all devices.  </p>
+          </div>
+
+          <div class="teampic" id="pic-2">
+            <img src= "images/placeholderIMG.jpg" alt="">
+          </div>
+
+
+
+          <div class="teampic" id="pic-3">
+            <img src="images/placeholderIMG.jpg" alt="">
           </div>
           <div class="teambio">
-            <p>bio</p>
+            <h3>Jason</h3>
+            <p>Team Awesome's Regular expressions specialist.
+              Enabling form and input validatio this will ensure that your database has the valid characters and phrases required for your business needs. For example, your website will only allow the user to submit a valid email address when signing up. </p>
           </div>
-          <div class="teampic">
-              <img src="images/placeholderIMG.jpg" alt="">
-          </div>
+
           <div class="teambio">
-            <p>bio</p>
+            <h3>Charmaine</h3>
+            <p>Team Awesome's Command Line guru. Keeping our team in check and allowing us to work in a collaborative way ensure that projects are on time and within budget.</p>
           </div>
-          <div class="teampic">
-              <img src="images/placeholderIMG.jpg" alt="">
+
+
+          <div class="teampic" id="pic-4">
+            <img src="images/placeholderIMG.jpg" alt="">
           </div>
-          <div class="teambio">
-             <p>bio</p>
-          </div>
+
+
       </section>
 
       <section id="contact-section">
@@ -60,17 +81,17 @@
         <form action="">
           <label for="first-name">Name</label>
           <br>
-          <input type="text" id="first-name">
+          <input type="text" id="first-name" class="form-inputs" required>
           <br>
           <label for="email">Email</label>
           <br>
-          <input type="email" id="email">
+          <input type="email" id="email" class="form-inputs" required>
           <br>
-          <label for="message">Message</label>
+          <label for="message" required>Message</label>
           <br>
-          <input type="text" id="message">
+          <textarea name="message" type="submit" value="Submit" id="message" class="form-inputs"></textarea>
           <br>
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" class="submit-button form-inputs">
         </form>
       </section>
     </main>
@@ -78,5 +99,6 @@
     All rights reserved to team Awesome FAC-15
     </footer>
   </div>
+
 </body>
 </html>
