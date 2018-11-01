@@ -75,10 +75,56 @@ a {
 #team-section {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(auto);
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin-top: 55%;
+}
+
+.teambio {
+  text-align: left;
+  padding: 2em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teambio,
+.teampic {
+  min-height: 25em;
+}
+
+i {
+  color: white;
 }
 
 #team-section img {
   width: 100%;
+}
+
+.teampic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamregex {
+  background-color: #4caf50;
+}
+
+.teamcss {
+  background-color: #3eadee;
+}
+
+.teamterminal {
+  background-color: #f9ca32;
+}
+
+.teamaccess {
+  background-color: #6b41af;
 }
 
 #message {
@@ -123,8 +169,47 @@ footer {
   padding-bottom: 1em;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   #team-section {
     grid-template-columns: 100%;
+    grid-template-rows: repeat(9 1fr);
+  }
+  #pic-1 {
+    grid-column: 1;
+    grid-row: 1/2;
+  }
+  #bio-1 {
+    grid-column: 1;
+    grid-row: 2/3;
+  }
+  #pic-2 {
+    grid-column: 1;
+    grid-row: 3/4;
+  }
+  #bio-2 {
+    grid-column: 1;
+    grid-row: 4/5;
+  }
+  #pic-3 {
+    grid-column: 1;
+    grid-row: 5/6;
+  }
+  #bio-3 {
+    grid-column: 1;
+    grid-row: 6/7;
+  }
+  #pic-4 {
+    grid-column: 1;
+    grid-row: 7/8;
+  }
+  #bio-4 {
+    grid-column: 1;
+    grid-row: 8/9;
+  }
+  #message,
+  #email,
+  #first-name,
+  .submit-button {
+    width: 90%;
   }
 }
