@@ -128,4 +128,10 @@ footer {
   #team-section {
     grid-template-columns: 100%;
   }
+  #message,
+  #email,
+  #first-name,
+  .submit-button {
+    width: 90%;
+  }
 }
