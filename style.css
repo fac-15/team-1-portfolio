@@ -47,6 +47,7 @@ p {
   top: 0px;
   z-index: 5;
   box-sizing: border-box;
+  width: 60px;
 }
 #navbar {
   display: block;
@@ -86,5 +87,10 @@ a {
 @media only screen and (max-width: 500px) {
   #team-section {
     grid-template-columns: 100%;
+  }
+  #logo {
+    display: block;
+    width: 50px;
+    text-align: center;
   }
 }
