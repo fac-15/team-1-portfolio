@@ -23,6 +23,7 @@ First portfolio project
 
 
 ## Optional: stretch goals 
+- Work on responsiveness of about page!
 - Complete mobile navbar - for example, an option to hide it, or avoiding the overlap with content
 - Arrow icon in landing about page, to show the user that they need to scroll and to include a link to the team section
 - Spend more time on accessibility
