@@ -83,8 +83,7 @@ a {
   margin-top: 55%;
 }
 
-.teambio{
-
+.teambio {
   text-align: left;
   padding: 2em;
 }
@@ -138,47 +137,35 @@ footer {
   #team-section {
     grid-template-columns: 100%;
     grid-template-rows: repeat(9 1fr);
-    
   }
-  #pic-1{
-
+  #pic-1 {
     grid-column: 1;
     grid-row: 1/2;
   }
-  #bio-1{
-
-    grid-column:1;
-    grid-row:2/3;
+  #bio-1 {
+    grid-column: 1;
+    grid-row: 2/3;
   }
-  #pic-2{
-
+  #pic-2 {
     grid-column: 1;
     grid-row: 3/4;
   }
-  #bio-2{
-
+  #bio-2 {
     grid-column: 1;
     grid-row: 4/5;
   }
-  #pic-3{
-
+  #pic-3 {
     grid-column: 1;
     grid-row: 5/6;
   }
-  #bio-3{
-
+  #bio-3 {
     grid-column: 1;
     grid-row: 6/7;
   }
-  #pic-4{
-
-    grid-column: 1;
-    grid-row: 7/8;
+  #message,
+  #email,
+  #first-name,
+  .submit-button {
+    width: 90%;
   }
-  #bio-4{
-
-    grid-column: 1;
-    grid-row: 8/9;
-  }
-
 }
