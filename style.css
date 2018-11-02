@@ -295,14 +295,13 @@ footer {
     padding-top: 20px;
   }
   #navbar a {
-    padding: 6px 8px 6px 16px;
-    font-size: 25px;
-    color: #black;
+    padding: 6px 8px 6px 6px;
+    font-size: 20px;
     transform: rotate(90deg);
     color: white;
   }
   a {
-    margin-top: 130px;
+    margin-top: 100px;
     padding: 0;
   }
   #about-icons {
