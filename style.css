@@ -30,6 +30,10 @@ h2 {
   margin: 20px auto;
   font-size: 26px;
 }
+
+h3 {
+  font-size: 1.6em;
+}
 p {
   font-size: 22px;
   padding-bottom: 18px;
@@ -71,7 +75,7 @@ a {
   color: white;
 }
 #navbar a:hover {
-  border-bottom: 15px solid #ff4242;
+  border-bottom: 15px solid #3eadee;
 }
 
 /* Sention sizing and padding */
@@ -276,7 +280,7 @@ footer {
   }
   #navbar {
     height: 100%;
-    width: 100px;
+    width: 50px;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -285,7 +289,6 @@ footer {
     text-align: center;
     right: 0;
     top: 10;
-    background: rgba(255, 255, 255, 0.5);
     padding-top: 20px;
   }
   #navbar a {
@@ -293,7 +296,7 @@ footer {
     font-size: 25px;
     color: #black;
     transform: rotate(90deg);
-    color: black;
+    color: white;
   }
   a {
     margin-top: 130px;
@@ -305,5 +308,19 @@ footer {
   }
   .teampic {
     min-height: 10em;
+  }
+  .container {
+    margin-right: 50px;
+  }
+  #navbar a:hover {
+    border-bottom: none;
+    color: #3eadee;
+  }
+
+  #about-section,
+  #team-section,
+  #contact-section {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
