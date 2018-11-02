@@ -44,7 +44,7 @@ p {
   top: 0px;
   z-index: 5;
   box-sizing: border-box;
-  color: black;
+  color: white;
   padding: 0.4em;
 }
 #navbar {
@@ -55,12 +55,12 @@ p {
   top: 0;
   width: 100%;
   text-align: right;
-  background-color: white;
+  background-color: black;
 }
 a {
   text-decoration: none;
   padding: 0 30px 10px 30px;
-  color: #313332;
+  color: white;
 }
 #navbar a:hover {
   border-bottom: 15px solid #ff4242;
@@ -75,14 +75,23 @@ a {
 }
 
 #about-section {
-  margin-top: 8em;
+  margin-top: 10em;
   max-width: 800px;
   margin: 0 auto;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 #contact-section {
   height: 100vh;
+}
+
+.home-icons {
+  margin: 1em 0.5em;
 }
 
 #team-section {
@@ -266,10 +275,15 @@ footer {
     font-size: 25px;
     color: #black;
     transform: rotate(90deg);
+    color: black;
   }
   a {
     margin-top: 130px;
     padding: 0;
+  }
+  #about-icons {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
   .teampic {
     min-height: 10em;
