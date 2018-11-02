@@ -21,14 +21,14 @@ h3 {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 3em;
   margin: 20px auto;
   /*To avoid overlapping navbar */
   padding-top: 1em;
 }
 h2 {
   margin: 20px auto;
-  font-size: 26px;
+  font-size: 2em;
 }
 
 h3 {
@@ -139,7 +139,7 @@ form {
   min-height: 25em;
 }
 
-i {
+span {
   color: white;
 }
 
@@ -232,6 +232,10 @@ textarea:focus {
 
 footer {
   padding-bottom: 1em;
+}
+
+footer p {
+  font-size: 1em;
 }
 
 /* Mobile device style and display  */
