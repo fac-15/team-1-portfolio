@@ -21,14 +21,18 @@ h3 {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 3em;
   margin: 20px auto;
   /*To avoid overlapping navbar */
   padding-top: 1em;
 }
 h2 {
   margin: 20px auto;
-  font-size: 26px;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
 }
 p {
   font-size: 22px;
@@ -71,13 +75,14 @@ a {
   color: white;
 }
 #navbar a:hover {
-  border-bottom: 15px solid #ff4242;
+  border-bottom: 15px solid #3eadee;
 }
 
 /* Sention sizing and padding */
 
 #about-section,
 #team-section,
+#home,
 #contact-section {
   display: block;
   margin-top: -3em;
@@ -229,6 +234,10 @@ footer {
   padding-bottom: 1em;
 }
 
+footer p {
+  font-size: 1em;
+}
+
 /* Mobile device style and display  */
 
 @media only screen and (max-width: 600px) {
@@ -279,7 +288,7 @@ footer {
   }
   #navbar {
     height: 100%;
-    width: 100px;
+    width: 50px;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -288,18 +297,16 @@ footer {
     text-align: center;
     right: 0;
     top: 10;
-    background: rgba(255, 255, 255, 0.5);
     padding-top: 20px;
   }
   #navbar a {
-    padding: 6px 8px 6px 16px;
-    font-size: 25px;
-    color: #black;
+    padding: 6px 8px 6px 6px;
+    font-size: 20px;
     transform: rotate(90deg);
-    color: black;
+    color: white;
   }
   a {
-    margin-top: 130px;
+    margin-top: 100px;
     padding: 0;
   }
   #about-icons {
@@ -308,5 +315,19 @@ footer {
   }
   .teampic {
     min-height: 10em;
+  }
+  .container {
+    margin-right: 50px;
+  }
+  #navbar a:hover {
+    border-bottom: none;
+    color: #3eadee;
+  }
+
+  #about-section,
+  #team-section,
+  #contact-section {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
