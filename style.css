@@ -1,3 +1,5 @@
+/* Html CSS */
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -28,14 +30,24 @@ h2 {
   margin: 20px auto;
   font-size: 26px;
 }
+
+h3 {
+  font-size: 1.6em;
+}
 p {
   font-size: 22px;
   padding-bottom: 18px;
 }
+
+/*  website main container */
+
 .container {
   max-width: 900px;
   margin: 0 auto;
 }
+
+/*  Logo and Navbar on desktop */
+
 #logo {
   float: left;
   display: inline-block;
@@ -63,8 +75,10 @@ a {
   color: white;
 }
 #navbar a:hover {
-  border-bottom: 15px solid #ff4242;
+  border-bottom: 15px solid #3eadee;
 }
+
+/* Sention sizing and padding */
 
 #about-section,
 #team-section,
@@ -89,6 +103,12 @@ a {
 
 #contact-section {
   height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-icons {
@@ -169,6 +189,8 @@ i {
   color: #6b41af;
 }
 
+/* Contact section format and display */
+
 #message {
   width: 50%;
   height: 16em;
@@ -206,10 +228,13 @@ textarea:focus {
   box-shadow: 0 0 10px #4caf50;
 }
 
+/*  footer section  */
+
 footer {
-  padding-top: 2em;
   padding-bottom: 1em;
 }
+
+/* Mobile device style and display  */
 
 @media only screen and (max-width: 600px) {
   #team-section {
@@ -259,7 +284,7 @@ footer {
   }
   #navbar {
     height: 100%;
-    width: 100px;
+    width: 50px;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -268,18 +293,16 @@ footer {
     text-align: center;
     right: 0;
     top: 10;
-    background: rgba(255, 255, 255, 0.5);
     padding-top: 20px;
   }
   #navbar a {
-    padding: 6px 8px 6px 16px;
-    font-size: 25px;
-    color: #black;
+    padding: 6px 8px 6px 6px;
+    font-size: 20px;
     transform: rotate(90deg);
-    color: black;
+    color: white;
   }
   a {
-    margin-top: 130px;
+    margin-top: 100px;
     padding: 0;
   }
   #about-icons {
@@ -288,5 +311,19 @@ footer {
   }
   .teampic {
     min-height: 10em;
+  }
+  .container {
+    margin-right: 50px;
+  }
+  #navbar a:hover {
+    border-bottom: none;
+    color: #3eadee;
+  }
+
+  #about-section,
+  #team-section,
+  #contact-section {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
