@@ -123,6 +123,8 @@ i {
   justify-content: center;
 }
 
+/* Background colors for team logo sections */
+
 .teamregex {
   background-color: #4caf50;
 }
@@ -137,6 +139,24 @@ i {
 
 .teamaccess {
   background-color: #6b41af;
+}
+
+/* Colors for team headings and icons */
+
+.colorregex {
+  color: #4caf50;
+}
+
+.colorcss {
+  color: #3eadee;
+}
+
+.colorterminal {
+  color: #f9ca32;
+}
+
+.coloraccess {
+  color: #6b41af;
 }
 
 #message {
@@ -250,5 +270,8 @@ footer {
   a {
     margin-top: 130px;
     padding: 0;
+  }
+  .teampic {
+    min-height: 10em;
   }
 }
