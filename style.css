@@ -1,3 +1,5 @@
+/* Html CSS */
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -32,10 +34,16 @@ p {
   font-size: 22px;
   padding-bottom: 18px;
 }
+
+/*  website main container */
+
 .container {
   max-width: 900px;
   margin: 0 auto;
 }
+
+/*  Logo and Navbar on desktop */
+
 #logo {
   float: left;
   display: inline-block;
@@ -65,6 +73,8 @@ a {
 #navbar a:hover {
   border-bottom: 15px solid #ff4242;
 }
+
+/* Sention sizing and padding */
 
 #about-section,
 #team-section,
@@ -174,6 +184,8 @@ i {
   color: #6b41af;
 }
 
+/* Contact section format and display */
+
 #message {
   width: 50%;
   height: 16em;
@@ -211,9 +223,13 @@ textarea:focus {
   box-shadow: 0 0 10px #4caf50;
 }
 
+/*  footer section  */
+
 footer {
   padding-bottom: 1em;
 }
+
+/* Mobile device style and display  */
 
 @media only screen and (max-width: 600px) {
   #team-section {
